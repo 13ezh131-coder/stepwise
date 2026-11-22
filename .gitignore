@@ -1,0 +1,17 @@
+node_modules/
+data/store.json
+data/store.json.corrupt-*.bak
+data/uploads/
+data/qa/
+.env
+.env.*
+!.env.example
+*.log
+
+data/*.sqlite*
+data/store.before-sqlite-*.json
+.codex-*/
+*.zip
+release/
+
+output/database-view.html
